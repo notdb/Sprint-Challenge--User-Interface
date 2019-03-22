@@ -155,6 +155,7 @@ header {
     display: flex;
     margin-top: 10px;
     margin-bottom: 15px;
+    margin-left: 20px;
 }
 
 .jumbo {
@@ -183,6 +184,7 @@ nav a {
 }
 
 .about {
+    width: 90%;
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px dashed black;
@@ -199,7 +201,7 @@ nav a {
 .four-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .together {
@@ -237,5 +239,14 @@ button:hover {
 }
 
 .about-page {
-   
+}
+
+.together-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about-wrapper {
+    display:flex;
+    justify-content: center;
 }
