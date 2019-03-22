@@ -211,9 +211,17 @@ button {
     text-decoration: none;
     padding: 5px 10px;
     margin: 8px 0;
-    
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
    
 }
+
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: lightskyblue;}
+  }
+
 
 .about-strategy h2 {
     margin-top: 5px;
