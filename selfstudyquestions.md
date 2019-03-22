@@ -18,3 +18,4 @@ The cross axis
 
 ## Explain why git is valuable to a team of developers
 
+Git allows a large team of developers to work on a product distributedly without making destructive changes to the product. Each developer can make a clone of a part or whole of the product, work on specific pieces, and integrate them back into the main product without disturbing another developers work.
