@@ -184,3 +184,16 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+.about-strategy {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed black;
+    width: 390px;
+   
+}
+
+.four-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
