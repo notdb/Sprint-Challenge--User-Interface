@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -129,6 +129,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    justify-content: center;
 }
 
 footer nav {
@@ -150,13 +152,15 @@ footer nav a {
 
 
 header {
-    margin-top: 10px;
     display: flex;
+    margin-top: 10px;
     margin-bottom: 15px;
+    margin-left: 20px;
 }
 
 .jumbo {
     margin-bottom: 10px;
+    width: 500px;
 }
 
 nav {
@@ -175,44 +179,74 @@ nav a {
 
 }
 
-/* I hope there's a faster way to do this in reality */
-
-.middle-content .boxes .box:nth-child(1) {
-    background-color: teal;
+.jumbo-about {
+    margin-bottom: 10px;
 }
 
-.middle-content .boxes .box:nth-child(2) {
-    background-color: gold;
+.about {
+    width: 90%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
 }
 
-.middle-content .boxes .box:nth-child(3) {
-    background-color: cadetblue;
+.about-strategy {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed black;
+    width: 390px;
+   
 }
 
-.middle-content .boxes .box:nth-child(4) {
-    background-color: coral;
+.four-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.middle-content .boxes .box:nth-child(5) {
-    background-color: crimson;
+.together {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    
 }
 
-.middle-content .boxes .box:nth-child(6) {
-    background-color: forestgreen;
+button {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 8px 0;
 }
 
-.middle-content .boxes .box:nth-child(7) {
-    background-color: darkorchid;
+button:hover {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
 }
 
-.middle-content .boxes .box:nth-child(8) {
-    background-color: hotpink;
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: lightskyblue;}
+  }
+
+
+.about-strategy h2 {
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
 
-.middle-content .boxes .box:nth-child(9) {
-    background-color: indigo;
+.about-page {
 }
 
-.middle-content .boxes .box:nth-child(10) {
-    background-color: dodgerblue;
+.together-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about-wrapper {
+    display:flex;
+    justify-content: center;
 }
