@@ -151,6 +151,7 @@ footer nav a {
 
 header {
     display: flex;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 
@@ -196,4 +197,25 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.together {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 8px 0;
+    
+   
+}
+
+.about-strategy h2 {
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
